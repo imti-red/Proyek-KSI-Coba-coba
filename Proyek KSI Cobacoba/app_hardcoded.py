@@ -2,7 +2,7 @@ import sqlite3
 from cryptography.fernet import Fernet
 
 # Kunci rahasia ditulis langsung di dalam kode sumber
-SECRET_KEY = b'uX3vP9zR2wK8mQ4jL7nY1tC5vB0xZ8mA3qW6eR9tY1u='
+
 
 def inisialisasi_db():
     conn = sqlite3.connect('keuangan_hardcoded.db')
